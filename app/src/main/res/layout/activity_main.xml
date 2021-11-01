@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:onClick="Comentar"
     tools:context=".MainActivity">
 
     <TextView
@@ -36,14 +37,22 @@
                 android:text="@string/article_subtitle"
                 android:textAppearance="@android:style/TextAppearance.Large" />
 
-            <TextView
+            <EditText
                 android:id="@+id/article"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:autoLink="web"
                 android:lineSpacingExtra="5sp"
-                android:text="@string/article_text"
-                android:autoLink="web"/>
+           />
+
             <!-- android:layout_below="@id/article_subheading" -->
+            <Button
+                android:id="@+id/boton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                />
+            <!--android:text="@string/add_comment" cambio el nombre del boton en la actividad-->
 
         </LinearLayout>
 

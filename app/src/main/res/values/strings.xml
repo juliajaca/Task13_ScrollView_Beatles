@@ -2,6 +2,9 @@
     <string name="app_name">Task13_ScrollView_Beatles</string>
     <string name="article_title">Article Title</string>
     <string name="article_subtitle">Article Subtitle</string>
+    <string name="add_comment">Add comment</string>
+    <string name="save_comment">Save comment</string>
+    <string name="texto_prueba">Texto para probar la edición</string>
     <string name="article_text">In a vault deep inside Abbey Road Studios in London - protected by an unmarked, triple-locked, police-alarmed door -
         are something like 400 hours of unreleased Beatles recordings, starting from June 2, 1962 and ending with the very last tracks recorded for the <i>Let It Be</i> album.
         The best of the best were released by Apple Records in the form of the 3-volume Anthology series.
@@ -45,4 +48,5 @@ This volume starts with the first new Beatle song, \"Free as a Bird\" (based on 
 <b><i>One After 909</i></b> - A song recorded for the <i>Let It Be</i> album was actually worked on way back in the beginning, six years earlier.
         This take shows how they did it much more slowly, with an R&amp;B feel to it.
 </string>
+
 </resources>
